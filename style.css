@@ -126,3 +126,43 @@ table, th, td {
     gap: 10px;
   }
 }
+
+@media (max-width: 768px) {
+  /* Mobile-specific styles go here */
+
+  body {
+    padding: 10px;
+  }
+
+  .header-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logos img {
+    height: 30px;
+    max-width: 80px;
+  }
+
+  h1 {
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .image-grid {
+    grid-template-columns: 1fr; /* one column on small screens */
+  }
+
+  table {
+    font-size: 0.9em;
+    overflow-x: auto;
+    display: block;
+  }
+}
+
