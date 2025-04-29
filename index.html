@@ -6,6 +6,15 @@
   <title>Coforge Data and AI Lab</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
+<script>
+  function toggleMenu() {
+    const navList = document.querySelector('nav ul');
+    navList.classList.toggle('show');
+  }
+</script>
+
+
 <body>
 
   <header>
@@ -18,18 +27,22 @@
         <img src="iitbhulogo.png" alt="Logo 2">
       </div>
     </div>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#milestones">Milestones</a></li>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#course">Courses</a></li>
-        <li><a href="#registration">Registration</a></li>
-        <li><a href="#research">Research Projects</a></li>
-        <li><a href="#events">Events</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>  
+
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+  <nav id="navbar">
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#milestones">Milestones</a></li>
+    <li><a href="#team">Team</a></li>
+    <li><a href="#course">Courses</a></li>
+    <li><a href="#registration">Registration</a></li>
+    <li><a href="#research">Research Projects</a></li>
+    <li><a href="#events">Events</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  </nav>
+
   </header>
 
   <main>

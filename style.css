@@ -167,3 +167,32 @@ table, th, td {
   }
 }
 
+.menu-toggle {
+  display: none;
+  font-size: 1.8em;
+  background: none;
+  border: none;
+  color: #004080;
+  cursor: pointer;
+  margin: 10px;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul.show {
+    display: flex;
+  }
+}
+
