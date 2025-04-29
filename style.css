@@ -207,9 +207,16 @@ table, th, td {
 
   .logos img {
       height: auto;
-      max-width: 50px;
+      max-width: 30px;
     }
   
+  .logos {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: nowrap;        /* prevent wrapping */
+      justify-content: center;  /* center logos horizontally */
+    }
   nav ul.show {
     display: flex;
   }
