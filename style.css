@@ -205,7 +205,7 @@ table, th, td {
   }
 
   .logos img {
-      height: auto;
+      height: 50px;
       max-width: 60px;
     }
   
