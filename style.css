@@ -191,6 +191,12 @@ table, th, td {
     padding: 0;
   }
 
+  .header-content h1 {
+    font-size: 1em;
+    color: #004080; /* lab name in blue */
+    margin: 0;
+  }
+
   nav ul.show {
     display: flex;
   }
