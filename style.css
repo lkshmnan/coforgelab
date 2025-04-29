@@ -201,13 +201,13 @@ table, th, td {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;      /* allows wrapping on small screens */
+    flex-wrap: nowrap;      /* allows wrapping on small screens */
     text-align: center;
   }
 
   .logos img {
       height: auto;
-      max-width: 20px;
+      max-width: 50px;
     }
   
   nav ul.show {
