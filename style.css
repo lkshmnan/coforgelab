@@ -137,16 +137,16 @@ table, th, td {
   .header-content {
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 2px;
   }
 
   .logos img {
-    height: 30px;
-    max-width: 80px;
+    height: 10px;
+    max-width: 50px;
   }
 
   h1 {
-    font-size: 1.4em;
+    font-size: 0.8em;
     text-align: center;
   }
 
@@ -160,7 +160,7 @@ table, th, td {
   }
 
   table {
-    font-size: 0.9em;
+    font-size: 0.5em;
     overflow-x: auto;
     display: block;
   }
