@@ -51,7 +51,7 @@ nav a {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;      /* allows wrapping on small screens */
-  gap: 300px;
+  gap: 280px;
   text-align: center;
 }
 
@@ -202,6 +202,7 @@ table, th, td {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 2px;
     flex-wrap: nowrap;      /* allows wrapping on small screens */
     text-align: center;
   }
