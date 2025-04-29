@@ -8,16 +8,60 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background: #f9f9f9;
+  background: #ffffff;  /* changed from #f9f9f9 */
   color: #333;
   padding: 20px;
 }
 
+h2 {
+  color: #004080; /* same blue as header/nav */
+}
+
+h3 {
+  color: #004080; /* same blue as header/nav */
+}
+
 header {
-  background: #004080;
-  color: #fff;
+  background: #ffffff; /* white background */
+  color: #004080;       /* blue text */
   padding: 20px 0;
   text-align: center;
+  border-bottom: none; /* optional: underline */
+}
+
+.header-content h1 {
+  font-size: 2em;
+  color: #004080; /* lab name in blue */
+  margin: 0;
+}
+
+header nav a {
+  color: #004080;
+}
+
+nav a {
+  color: #004080; /* nav links in blue */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+nav a:hover {
+  color: #002f66; /* darker blue on hover */
+}
+
+
+.logos img {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
 }
 
 nav ul {
@@ -48,6 +92,10 @@ footer {
   background: #eee;
   margin-top: 40px;
   font-size: 0.9em;
+}
+
+table, th, td {
+  border: 1px solid black;
 }
 
 /* Image grid for the gallery */
