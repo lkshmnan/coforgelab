@@ -195,6 +195,7 @@ table, th, td {
     font-size: 1em;
     color: #004080; /* lab name in blue */
     margin: 0;
+    flex-wrap: nowrap;
   }
 
   .header-content {
