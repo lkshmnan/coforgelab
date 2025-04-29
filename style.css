@@ -203,10 +203,10 @@ table, th, td {
     flex-wrap: nowrap;   /* don't wrap */
     justify-content: space-between;
   }
-  
+
   .logos img {
       height: auto;
-      max-width: 30px;
+      max-width: 60px;
     }
   
   .logos {
