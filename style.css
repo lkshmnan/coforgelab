@@ -22,7 +22,8 @@ h3 {
 }
 
 header {
-  background: #ffffff; /* white background */
+  
+  background: #eee;
   color: #004080;       /* blue text */
   padding: 20px 0;
   text-align: center;
