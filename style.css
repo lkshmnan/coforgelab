@@ -199,14 +199,11 @@ table, th, td {
   }
 
   .header-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2px;
-    flex-wrap: nowrap;      /* allows wrapping on small screens */
-    text-align: center;
+    flex-direction: row; /* ensure logos and text stay side-by-side */
+    flex-wrap: nowrap;   /* don't wrap */
+    justify-content: space-between;
   }
-
+  
   .logos img {
       height: auto;
       max-width: 30px;
