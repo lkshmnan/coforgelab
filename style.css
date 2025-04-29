@@ -55,13 +55,7 @@ nav a {
   text-align: center;
 }
 
-.logos {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  flex-wrap: nowrap;        /* prevent wrapping */
-  justify-content: center;  /* center logos horizontally */
-}
+
 
 nav a:hover {
   color: #002f66; /* darker blue on hover */
@@ -211,6 +205,11 @@ table, th, td {
     text-align: center;
   }
 
+  .logos img {
+      height: auto;
+      max-width: 20px;
+    }
+  
   nav ul.show {
     display: flex;
   }
