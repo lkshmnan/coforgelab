@@ -202,7 +202,7 @@ table, th, td {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;      /* allows wrapping on small screens */
-    gap: 50px;
+    gap: 5px;
     text-align: center;
   }
 
