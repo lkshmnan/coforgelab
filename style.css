@@ -50,9 +50,12 @@ nav a {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;      /* allows wrapping on small screens */
   gap: 300px;
-  flex-wrap: wrap;
+  text-align: center;
 }
+
+
 
 nav a:hover {
   color: #002f66; /* darker blue on hover */
