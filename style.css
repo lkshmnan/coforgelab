@@ -50,7 +50,7 @@ nav a {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 80px;
+  gap: 300px;
   flex-wrap: wrap;
 }
 
@@ -60,7 +60,7 @@ nav a:hover {
 
 
 .logos img {
-  height: 50px;
+  height: 70px;
   width: auto;
   object-fit: contain;
 }
